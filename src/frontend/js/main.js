@@ -136,3 +136,44 @@ document.getElementById('collapse-all').addEventListener('click', function() {
     console.log('Collapse all clicked');
     // Implement collapse logic
 });
+
+// Define color mapping for maintainers
+const maintainerColors = {
+    "Apache Software Foundation": "#4285F4",
+    "JLine Project": "#34A853",
+    "Eclipse Foundation": "#FBBC05",
+    "Google": "#EA4335",
+    "QOS.ch": "#800080",
+    "Jakarta EE": "#FF6600",
+    "FasterXML": "#008080",
+    "XmlUnit Team": "#FF00FF",
+    "Codehaus Plexus/Sonatype": "#006400",
+    "JUnit Team": "#4B0082",
+    "Mockito Team": "#FF4500",
+    "AssertJ Team": "#2E8B57",
+    "Hamcrest Team": "#9932CC",
+    "OW2 Consortium": "#FF8C00",
+    "Individual Maintainers": "#20B2AA"
+  };
+  
+  // Add this to your node rendering logic to apply colors based on maintainer
+  function getNodeColor(d) {
+    return d.data.maintainer ? maintainerColors[d.data.maintainer] || "#999" : "#999";
+  }
+  
+  // Add this to create a legend for maintainers
+  function createMaintainerLegend(container) {
+    const legend = d3.select(container);
+    
+    Object.keys(maintainerColors).forEach(maintainer => {
+      const item = legend.append("div")
+        .attr("class", "legend-item");
+        
+      item.append("div")
+        .attr("class", "legend-color")
+        .style("background-color", maintainerColors[maintainer]);
+        
+      item.append("span")
+        .text(maintainer);
+    });
+  }

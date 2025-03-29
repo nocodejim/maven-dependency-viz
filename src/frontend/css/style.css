@@ -48,3 +48,27 @@ button:hover {
     padding: 1rem;
     min-width: 200px;
 }
+
+.legend-container {
+    margin: 15px 0;
+  }
+  
+  #maintainer-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .legend-color {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
