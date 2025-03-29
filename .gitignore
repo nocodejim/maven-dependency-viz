@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.env
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files
+# Uncomment if you don't want to track data files
+# data/*.json
+# data/*.csv
+
+# Distribution / packaging
+dist/
+build/
+
+# System
+.DS_Store
+Thumbs.db

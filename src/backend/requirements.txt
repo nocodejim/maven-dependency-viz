@@ -1,0 +1,18 @@
+# Core dependencies
+requests==2.31.0
+pandas==2.2.0
+networkx==3.2.1
+matplotlib==3.8.0
+pydot==1.4.2
+
+# Data processing
+numpy==1.26.0
+pygithub==2.2.0
+
+# Maven parsing
+lxml==4.9.3
+beautifulsoup4==4.12.2
+
+# Development tools
+pytest==7.4.3
+black==23.10.0
