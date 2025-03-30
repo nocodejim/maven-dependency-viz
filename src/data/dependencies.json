@@ -1,0 +1,938 @@
+{
+  "nodes": [
+    {
+      "id": "maven",
+      "name": "Apache Maven",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "category-0",
+      "name": "Core Dependencies",
+      "type": "category"
+    },
+    {
+      "id": "category-1",
+      "name": "API Components",
+      "type": "category"
+    },
+    {
+      "id": "category-2",
+      "name": "Resolver Components",
+      "type": "category"
+    },
+    {
+      "id": "category-3",
+      "name": "External Libraries",
+      "type": "category"
+    },
+    {
+      "id": "category-4",
+      "name": "Logging Components",
+      "type": "category"
+    },
+    {
+      "id": "category-5",
+      "name": "Building/Testing",
+      "type": "category"
+    },
+    {
+      "id": "category-6",
+      "name": "IO & Transport",
+      "type": "category"
+    },
+    {
+      "id": "category-7",
+      "name": "UI & Terminal",
+      "type": "category"
+    },
+    {
+      "id": "category-8",
+      "name": "XML Processing",
+      "type": "category"
+    },
+    {
+      "id": "maven-artifact",
+      "name": "maven-artifact",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-builder-support",
+      "name": "maven-builder-support",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-core",
+      "name": "maven-core",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-impl",
+      "name": "maven-impl",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-embedder",
+      "name": "maven-embedder",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-cli",
+      "name": "maven-cli",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-model",
+      "name": "maven-model",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-model-builder",
+      "name": "maven-model-builder",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-compat",
+      "name": "maven-compat",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-core",
+      "name": "maven-api-core",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-annotations",
+      "name": "maven-api-annotations",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-model",
+      "name": "maven-api-model",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-settings",
+      "name": "maven-api-settings",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-spi",
+      "name": "maven-api-spi",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-toolchain",
+      "name": "maven-api-toolchain",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-plugin",
+      "name": "maven-api-plugin",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-xml",
+      "name": "maven-api-xml",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-di",
+      "name": "maven-api-di",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-metadata",
+      "name": "maven-api-metadata",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-api-cli",
+      "name": "maven-api-cli",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-api",
+      "name": "maven-resolver-api",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-spi",
+      "name": "maven-resolver-spi",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-impl",
+      "name": "maven-resolver-impl",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-util",
+      "name": "maven-resolver-util",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-named-locks",
+      "name": "maven-resolver-named-locks",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-connector-basic",
+      "name": "maven-resolver-connector-basic",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-provider",
+      "name": "maven-resolver-provider",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "guice",
+      "name": "guice",
+      "maintainer": "Google",
+      "color": "#c6dbef"
+    },
+    {
+      "id": "guava",
+      "name": "guava",
+      "maintainer": "Google",
+      "color": "#c6dbef"
+    },
+    {
+      "id": "org.eclipse.sisu.plexus",
+      "name": "org.eclipse.sisu.plexus",
+      "maintainer": "Eclipse Foundation",
+      "color": "#9ecae1"
+    },
+    {
+      "id": "javax.annotation-api",
+      "name": "javax.annotation-api",
+      "maintainer": "Jakarta EE",
+      "color": "#fd8d3c"
+    },
+    {
+      "id": "org.eclipse.sisu.inject",
+      "name": "org.eclipse.sisu.inject",
+      "maintainer": "Eclipse Foundation",
+      "color": "#9ecae1"
+    },
+    {
+      "id": "jakarta.inject-api",
+      "name": "jakarta.inject-api",
+      "maintainer": "Jakarta EE",
+      "color": "#fd8d3c"
+    },
+    {
+      "id": "asm",
+      "name": "asm",
+      "maintainer": "OW2 Consortium",
+      "color": "#9e9ac8"
+    },
+    {
+      "id": "javax.inject",
+      "name": "javax.inject",
+      "maintainer": "Eclipse Foundation",
+      "color": "#9ecae1"
+    },
+    {
+      "id": "commons-cli",
+      "name": "commons-cli",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "commons-jxpath",
+      "name": "commons-jxpath",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-logging",
+      "name": "maven-logging",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "slf4j-api",
+      "name": "slf4j-api",
+      "maintainer": "QOS.ch",
+      "color": "#e6550d"
+    },
+    {
+      "id": "slf4j-simple",
+      "name": "slf4j-simple",
+      "maintainer": "QOS.ch",
+      "color": "#e6550d"
+    },
+    {
+      "id": "logback-classic",
+      "name": "logback-classic",
+      "maintainer": "QOS.ch",
+      "color": "#e6550d"
+    },
+    {
+      "id": "plexus-xml",
+      "name": "plexus-xml",
+      "maintainer": "Codehaus Plexus/Sonatype",
+      "color": "#31a354"
+    },
+    {
+      "id": "plexus-classworlds",
+      "name": "plexus-classworlds",
+      "maintainer": "Codehaus Plexus/Sonatype",
+      "color": "#31a354"
+    },
+    {
+      "id": "plexus-interpolation",
+      "name": "plexus-interpolation",
+      "maintainer": "Codehaus Plexus/Sonatype",
+      "color": "#31a354"
+    },
+    {
+      "id": "plexus-sec-dispatcher",
+      "name": "plexus-sec-dispatcher",
+      "maintainer": "Codehaus Plexus/Sonatype",
+      "color": "#31a354"
+    },
+    {
+      "id": "plexus-testing",
+      "name": "plexus-testing",
+      "maintainer": "Codehaus Plexus/Sonatype",
+      "color": "#31a354"
+    },
+    {
+      "id": "junit-bom",
+      "name": "junit-bom",
+      "maintainer": "JUnit Team",
+      "color": "#74c476"
+    },
+    {
+      "id": "mockito-bom",
+      "name": "mockito-bom",
+      "maintainer": "Mockito Team",
+      "color": "#a1d99b"
+    },
+    {
+      "id": "byte-buddy",
+      "name": "byte-buddy",
+      "maintainer": "Individual Maintainers",
+      "color": "#bcbddc"
+    },
+    {
+      "id": "hamcrest",
+      "name": "hamcrest",
+      "maintainer": "Hamcrest Team",
+      "color": "#756bb1"
+    },
+    {
+      "id": "assertj-core",
+      "name": "assertj-core",
+      "maintainer": "AssertJ Team",
+      "color": "#c7e9c0"
+    },
+    {
+      "id": "maven-resolver-transport-file",
+      "name": "maven-resolver-transport-file",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-transport-apache",
+      "name": "maven-resolver-transport-apache",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-transport-jdk",
+      "name": "maven-resolver-transport-jdk",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "maven-resolver-transport-wagon",
+      "name": "maven-resolver-transport-wagon",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "wagon-provider-api",
+      "name": "wagon-provider-api",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "wagon-file",
+      "name": "wagon-file",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "wagon-http",
+      "name": "wagon-http",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "jimfs",
+      "name": "jimfs",
+      "maintainer": "Google",
+      "color": "#c6dbef"
+    },
+    {
+      "id": "maven-jline",
+      "name": "maven-jline",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "jline-reader",
+      "name": "jline-reader",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-style",
+      "name": "jline-style",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-builtins",
+      "name": "jline-builtins",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-console",
+      "name": "jline-console",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-console-ui",
+      "name": "jline-console-ui",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-terminal",
+      "name": "jline-terminal",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-terminal-ffm",
+      "name": "jline-terminal-ffm",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-terminal-jni",
+      "name": "jline-terminal-jni",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jline-native",
+      "name": "jline-native",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "jansi-core",
+      "name": "jansi-core",
+      "maintainer": "JLine Project",
+      "color": "#6baed6"
+    },
+    {
+      "id": "maven-xml",
+      "name": "maven-xml",
+      "maintainer": "Apache Software Foundation",
+      "color": "#3182bd"
+    },
+    {
+      "id": "woodstox-core",
+      "name": "woodstox-core",
+      "maintainer": "FasterXML",
+      "color": "#fdae6b"
+    },
+    {
+      "id": "stax2-api",
+      "name": "stax2-api",
+      "maintainer": "FasterXML",
+      "color": "#fdae6b"
+    },
+    {
+      "id": "xmlunit-assertj",
+      "name": "xmlunit-assertj",
+      "maintainer": "XmlUnit Team",
+      "color": "#fdd0a2"
+    },
+    {
+      "id": "xmlunit-core",
+      "name": "xmlunit-core",
+      "maintainer": "XmlUnit Team",
+      "color": "#fdd0a2"
+    },
+    {
+      "id": "xmlunit-matchers",
+      "name": "xmlunit-matchers",
+      "maintainer": "XmlUnit Team",
+      "color": "#fdd0a2"
+    }
+  ],
+  "links": [
+    {
+      "source": "maven",
+      "target": "category-0",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-1",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-2",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-3",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-4",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-5",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-6",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-7",
+      "value": 3
+    },
+    {
+      "source": "maven",
+      "target": "category-8",
+      "value": 3
+    },
+    {
+      "source": "category-0",
+      "target": "maven-artifact",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-builder-support",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-core",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-impl",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-embedder",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-cli",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-model",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-model-builder",
+      "value": 2
+    },
+    {
+      "source": "category-0",
+      "target": "maven-compat",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-core",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-annotations",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-model",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-settings",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-spi",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-toolchain",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-plugin",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-xml",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-di",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-metadata",
+      "value": 2
+    },
+    {
+      "source": "category-1",
+      "target": "maven-api-cli",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-api",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-spi",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-impl",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-util",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-named-locks",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-connector-basic",
+      "value": 2
+    },
+    {
+      "source": "category-2",
+      "target": "maven-resolver-provider",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "guice",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "guava",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "org.eclipse.sisu.plexus",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "javax.annotation-api",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "org.eclipse.sisu.inject",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "jakarta.inject-api",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "asm",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "javax.inject",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "commons-cli",
+      "value": 2
+    },
+    {
+      "source": "category-3",
+      "target": "commons-jxpath",
+      "value": 2
+    },
+    {
+      "source": "category-4",
+      "target": "maven-logging",
+      "value": 2
+    },
+    {
+      "source": "category-4",
+      "target": "slf4j-api",
+      "value": 2
+    },
+    {
+      "source": "category-4",
+      "target": "slf4j-simple",
+      "value": 2
+    },
+    {
+      "source": "category-4",
+      "target": "logback-classic",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "plexus-xml",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "plexus-classworlds",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "plexus-interpolation",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "plexus-sec-dispatcher",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "plexus-testing",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "junit-bom",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "mockito-bom",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "byte-buddy",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "hamcrest",
+      "value": 2
+    },
+    {
+      "source": "category-5",
+      "target": "assertj-core",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "maven-resolver-transport-file",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "maven-resolver-transport-apache",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "maven-resolver-transport-jdk",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "maven-resolver-transport-wagon",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "wagon-provider-api",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "wagon-file",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "wagon-http",
+      "value": 2
+    },
+    {
+      "source": "category-6",
+      "target": "jimfs",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "maven-jline",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-reader",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-style",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-builtins",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-console",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-console-ui",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-terminal",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-terminal-ffm",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-terminal-jni",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jline-native",
+      "value": 2
+    },
+    {
+      "source": "category-7",
+      "target": "jansi-core",
+      "value": 2
+    },
+    {
+      "source": "category-8",
+      "target": "maven-xml",
+      "value": 2
+    },
+    {
+      "source": "category-8",
+      "target": "woodstox-core",
+      "value": 2
+    },
+    {
+      "source": "category-8",
+      "target": "stax2-api",
+      "value": 2
+    },
+    {
+      "source": "category-8",
+      "target": "xmlunit-assertj",
+      "value": 2
+    },
+    {
+      "source": "category-8",
+      "target": "xmlunit-core",
+      "value": 2
+    },
+    {
+      "source": "category-8",
+      "target": "xmlunit-matchers",
+      "value": 2
+    }
+  ]
+}

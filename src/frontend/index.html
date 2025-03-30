@@ -27,7 +27,28 @@
     </footer>
     
     <script src="js/main.js"></script>
-
+    <div id="metrics-panel" class="metrics-panel">
+        <h3>Dependency Metrics</h3>
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <h4>Total Dependencies</h4>
+                <div id="total-dependencies" class="metric-value">-</div>
+            </div>
+            <div class="metric-card">
+                <h4>Unique Maintainers</h4>
+                <div id="unique-maintainers" class="metric-value">-</div>
+            </div>
+            <div class="metric-card">
+                <h4>Max Depth</h4>
+                <div id="max-depth" class="metric-value">-</div>
+            </div>
+            <div class="metric-card">
+                <h4>Approval Time Est.</h4>
+                <div id="approval-time" class="metric-value">-</div>
+                <div class="metric-subtitle">@ 30 min per component</div>
+            </div>
+        </div>
+    </div>
     <div class="legend-container">
         <h3>Maintainer Organizations</h3>
         <div id="maintainer-legend"></div>
