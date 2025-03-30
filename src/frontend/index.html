@@ -15,10 +15,56 @@
     
     <main>
         <div id="visualization"></div>
+        
         <div id="controls">
-            <button id="expand-all">Expand All</button>
-            <button id="collapse-all">Collapse All</button>
-            <div id="legend"></div>
+            <div class="buttons">
+                <button id="expand-all">Expand All</button>
+                <button id="collapse-all">Collapse All</button>
+            </div>
+            
+            <div id="legend">
+                <h3>Maintainer Organizations</h3>
+                <div id="maintainer-legend"></div>
+            </div>
+        </div>
+        
+        <!-- Metrics Panel -->
+        <div id="metrics-panel" class="metrics-panel">
+            <h3>Dependency Metrics</h3>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h4>Total Dependencies</h4>
+                    <div id="total-dependencies" class="metric-value">-</div>
+                </div>
+                <div class="metric-card">
+                    <h4>Unique Maintainers</h4>
+                    <div id="unique-maintainers" class="metric-value">-</div>
+                </div>
+                <div class="metric-card">
+                    <h4>Max Depth</h4>
+                    <div id="max-depth" class="metric-value">-</div>
+                </div>
+                <div class="metric-card">
+                    <h4>Approval Time Est.</h4>
+                    <div id="approval-time" class="metric-value">-</div>
+                    <div class="metric-subtitle">@ 30 min per component</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Complexity Explanation -->
+        <div class="explanation-panel">
+            <h3>Why Component-Level Approval Is Impractical</h3>
+            <p>
+                This visualization demonstrates how a single development tool like Maven has dozens of dependencies,
+                each maintained by different organizations. Each of these components may have their own dependencies,
+                creating a complex tree that can reach several levels deep.
+            </p>
+            <p>
+                Requiring prior approval for "any and all software components" would mean reviewing not just Maven itself, 
+                but every single dependency and sub-dependency shown here. This creates significant administrative burden and 
+                slows development without proportionate security benefits.
+            </p>
         </div>
     </main>
     
@@ -27,31 +73,6 @@
     </footer>
     
     <script src="js/main.js"></script>
-    <div id="metrics-panel" class="metrics-panel">
-        <h3>Dependency Metrics</h3>
-        <div class="metrics-grid">
-            <div class="metric-card">
-                <h4>Total Dependencies</h4>
-                <div id="total-dependencies" class="metric-value">-</div>
-            </div>
-            <div class="metric-card">
-                <h4>Unique Maintainers</h4>
-                <div id="unique-maintainers" class="metric-value">-</div>
-            </div>
-            <div class="metric-card">
-                <h4>Max Depth</h4>
-                <div id="max-depth" class="metric-value">-</div>
-            </div>
-            <div class="metric-card">
-                <h4>Approval Time Est.</h4>
-                <div id="approval-time" class="metric-value">-</div>
-                <div class="metric-subtitle">@ 30 min per component</div>
-            </div>
-        </div>
-    </div>
-    <div class="legend-container">
-        <h3>Maintainer Organizations</h3>
-        <div id="maintainer-legend"></div>
-    </div>    
+    <script src="js/metrics.js"></script>
 </body>
 </html>
